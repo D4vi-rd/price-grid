@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* cores dos cards */
+    --bg-d2: hsl(179, 62%, 43%);
+    --bg-d3: hsl(71, 73%, 54%);
+    --white: hsl(204, 43%, 93%);
+    --gray: hsl(218, 22%, 67%);
+    /* fonte */
+
+    --ff: "Karla", sans-serif;
+}
