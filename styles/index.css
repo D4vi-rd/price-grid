@@ -132,3 +132,69 @@ body {
         padding-bottom: 10px;
     }
 }
+
+@media (max-width: 768px) {
+
+    
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 80%;
+        margin-block: 50px;
+    }
+
+    .d1 {
+        grid-column: 1/2;
+        grid-row: 1;
+        h2 {
+            font-size: 26px;
+        }
+
+        span {
+            font-size: 18px;
+        }
+
+        p {
+            color: var(--gray);
+            font-size: 14px;
+        }
+    }
+    .d2 {
+        grid-column: 1/2;
+        grid-row: 2;
+        border-radius: 0;
+
+        h2 {
+            font-size: 23px;
+            padding-bottom: 10px;
+        }
+
+        .precing {
+            span {
+                font-size: 50px;
+            }
+
+            p {
+                font-weight: 100;
+            }
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 20px 25px;
+            font-size: 20px;
+        }
+    }
+    .d3 {
+        grid-column: 1/2;
+        grid-row: 3;
+        border-bottom-left-radius: 8px;
+
+        h2 {
+            font-size: 27px;
+        }
+    }
+
+
+}
